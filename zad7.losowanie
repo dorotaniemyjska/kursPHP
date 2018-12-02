@@ -1,0 +1,18 @@
+Treść zadania:
+Jeśli liczba jest podzielna przez 5 i parzysta, wyświetl jest
+przeciwieństwo (czyli taką samą liczbę, ale ze znakiem minus).
+
+<?php
+
+$liczba = rand(1,100);
+$liczba=15;
+if ((($liczba%5)==0)&&(($liczba%2)==0))
+    {
+        echo (-1*$liczba);
+    }
+else 
+{
+    echo("Liczba nie podzielna przez 5 i 2");
+}
+
+?>
