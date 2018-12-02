@@ -1,0 +1,16 @@
+Treść zadania:
+Utwórz tablicę z nazwami miesięcy $miesiace = [“styczeń”, “luty”,
+“marzec”, ...] a następnie pobierz i nazwy wszystkich miesięcy,
+począwszy od nazwy miesiąca, w którym się urodziłaś do końca roku.
+
+
+
+<?php
+$miesiace= array ('styczen', 'luty','marzec','kwiecien','maj','czerwiec','lipiec','sierpien','wrzesien','pazdziernik','listopad','grudzien');
+for($i=1; $i<count($miesiace); $i++)
+{
+ echo $miesiace[$i].'<br>';
+}
+
+
+?>
