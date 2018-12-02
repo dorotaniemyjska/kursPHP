@@ -1,0 +1,13 @@
+<?php
+
+function potegowanie($a,$b){
+return $a ** $b;
+}
+$a=2;
+$b=3;
+
+$wynik=potegowanie($a,$b);
+echo $wynik;
+
+
+?>
