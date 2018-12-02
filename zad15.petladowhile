@@ -1,0 +1,12 @@
+Treść zadania:
+Wylosuj liczbę podzielną przez 3, większą od 5 i mniejszą od 390.
+
+<?php
+do
+  {
+    $liczba = rand(5,390);
+  }
+  while ($liczba%3);
+echo $liczba;
+
+?>
