@@ -1,0 +1,12 @@
+Treść zadania:
+Wypisz co trzeci element tablicy
+
+<?php
+$tablica= range(1,100);
+for($i=0; $i<100; $i+=3)
+{ 
+   echo $tablica[$i].'<br>';
+  }
+  
+  ?>
+  
