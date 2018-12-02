@@ -1,0 +1,19 @@
+Treść zadania:
+Jeśli wylosowana liczba jest większa od 70, dodaj do niej swój wiek
+i wyświetl ją.
+
+<?php
+$liczba= rand(1,100);
+
+$liczba=71;
+if
+    ($liczba>70)
+{
+echo ($liczba + 34);
+
+}
+else
+{
+    echo("wpisz liczbę większą niż 70");
+}
+?>
