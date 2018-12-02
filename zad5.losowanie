@@ -1,0 +1,14 @@
+Treść zadania:
+Jeśli liczba jest podzielna przez 3, wyświetl na ekranie “BINGO”.
+
+<?php
+liczba= rand(1,100);
+$liczba=30;
+
+if
+(($liczba%3)==0)
+{ 
+echo("BINGO");
+}
+
+?>
