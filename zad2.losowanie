@@ -1,0 +1,15 @@
+
+Treść zadania:
+Napisz pętlę for wyświetlającą wszystkie podzielne przez 5 liczby od 876 do 243 w porądku malejącym
+
+<?php
+
+ for($i=876; $i>242; $i--)
+ {
+   
+ if  ($i % 5==0)
+     
+   echo $i ."<br>";
+
+ }
+ ?>
