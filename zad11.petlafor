@@ -1,0 +1,13 @@
+Treść zadania:
+Wypisz elementy tablicy w odwrotnej kolejności.
+
+
+<?php
+$tablica= range(1,100);
+for($i=100; $i>0; $i--)
+{
+  echo $tablica[$i].'<br>';
+}
+?>
+
+
