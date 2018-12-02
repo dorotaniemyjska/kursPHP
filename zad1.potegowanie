@@ -1,3 +1,7 @@
+Treść zadania:
+Napisz funkcję, która przyjmuje dwa argumenty i zwraca wynik podniesienia pierwszego z nich do potęgi drugiego.
+
+
 <?php
 
 function potegowanie($a,$b){
