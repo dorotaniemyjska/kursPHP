@@ -1,0 +1,13 @@
+Treść zadania:
+Dla każdej liczby z przedziału 25-55 napisz: "przyszłość jest dziś!".
+
+<?php
+
+liczba= rand(1,100);
+$liczba=30;
+if (($liczba>25)&&($liczba<55))
+    {
+        echo("przyszłość jest dziś");
+    }
+
+?>
