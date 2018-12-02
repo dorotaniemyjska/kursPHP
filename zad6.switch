@@ -1,0 +1,114 @@
+Treść zadania:
+Zadeklaruj zmienną $stanowisko na sztywno w kodzie (tzw.
+hardcode*) i użyj jej, żeby wyświetlić pensję danego pracownika.
+Możliwe stanowiska:
+-operator dźwigu
+-operator suwnicy
+-pomocnik murarza
+-kowal
+-brygadzista
+
+<!doctype html>
+<html>
+
+<head>
+    <title>zadanko break 1</title>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+        p {
+            color: #696969;
+            font-size: 25px;
+            text-align: left;
+            font-family: 'Merienda', cursive;
+            font-weight: 200;
+        }
+
+        ul,
+        li {
+            list-style: none;
+            list-style-image: url(user-solid.svg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action=zad1.php method="GET">
+        <ul>
+            <li>
+                <p>operator dźwigu</p><input type="radio" name=stanowisko value="operator dźwigu"></li>
+            <li>
+                <p>operator suwnicy</p><input type="radio" name=stanowisko value="operator suwnicy"></li>
+            <li>
+                <p>pomocnik murarza</p><input type="radio" name=stanowisko value="pomocnik murarza"></li>
+            <li>
+                <p>kowal</p><input type="radio" name=stanowisko value="kowal" checked></li>
+            <li>
+                <p>brygadzista</p><input type="radio" name=stanowisko value="brygadzista"></li>
+            <li>
+                <p>inne stanowisko</p><input type="radio" name=stanowisko value="inne stanowisko"></li>
+        </ul>
+        <br>
+
+        <input type=submit value=sprawdź>
+    </form>
+
+
+
+</body>
+
+</html>
+
+
+<!doctype html>
+<html>
+
+<head>
+    <title>excercise1</title>
+    <!--ćwiczenia z kursu php matkaprogramistka-->
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Merienda:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!--czcionka z google fonts-->
+    <style type="text/css">
+        p {
+            color: #696969;
+            font-size: 35px;
+            text-align: center;
+            margin-top: 50px;
+            font-family: "Merienda", serif;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <?php
+$stanowisko=$_GET['stanowisko']; //zadanie polegało na pobraniu z formularza zmiennej stanowisko i przypisanie pensji//
+
+switch($stanowisko)
+   
+{
+    case "operator dźwigu":
+        echo "<p>Pensja wynosi 1500zł</p>";
+        break;
+    case "operator suwnicy":
+        echo "<p>Pensja wynosi 2000zł</p>";
+        break;
+    case "pomocnik murarza";
+        echo "<p>Pensja wynosi 3000zł</p>";
+        break;
+    case "kowal";
+        echo "<p>Pensja wynosi 5000zł</p>";
+        break;
+    case "brygadzista";
+        echo "<p>Pensja wynosi 2500zł</p>";
+        break;
+    default:
+        echo "<p>Brak zdefiniowanej pensji</p>";     
+}
+?>
+        <a href=formularz.php>powrót</a>
+</body>
+
+</html>
+
