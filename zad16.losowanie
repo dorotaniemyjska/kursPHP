@@ -1,0 +1,35 @@
+Treść zadania
+Wylosuj dwie liczby z przedziału (-100,100) i podziel większą przez mniejszą
+
+//zad losowanie dwoch liczb i podzielenie wiekszej przez mniejsza
+
+//liczba mniejsza
+$liczba1=rand (-100,100);
+//liczba wieksza
+$liczba2=rand (-100,100);
+
+
+echo $liczba1 ."<br>";
+echo $liczba2 ."<br>";
+
+if ($liczba1==0)
+	{	
+	echo "nie dziel przez zero <br>";
+	}
+	
+	if ($liczba2<$liczba1)
+	{
+		echo "Liczba dwa jest mniejsza od liczby jeden brak dzielenia";
+	}
+	
+	if ($liczba2==$liczba1)
+	{
+		echo "liczby sa rowne";
+	}
+
+	if (($liczba2>$liczba1)&&($liczba1!=0))
+	{
+		
+echo $wynik = $liczba2 / $liczba1;
+	}
+ ?>
