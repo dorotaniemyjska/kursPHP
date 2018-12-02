@@ -1,0 +1,13 @@
+Treść zadania:
+Wyświetl informację, czy liczba jest parzysta.
+
+<?php
+$liczba=rand(1,100);
+
+
+if (($liczba%2)==0){
+    echo $liczba."<br/>";
+}
+
+?>
+
