@@ -1,0 +1,12 @@
+Treść zadania:
+Dla liczb mniejszych od 18 i większych od 70 wyświetl napis: “Koniec
+i bomba, kto czytał ten trąba!”.
+
+$liczba=71;
+if (($liczba<18)||($liczba>70))
+    {
+        echo("Koniec i bomba, kto czytał ten trąba");
+    }
+
+?>
+
