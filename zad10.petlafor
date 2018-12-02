@@ -1,0 +1,8 @@
+Treść zadania:
+Utwórz tablicę elementów od 1 do 100 i wypisz je po kolei.
+
+$tablica= range(1,100);
+
+for($i=0; $i<100; $i++) 
+{ echo $tablica[$i].'<br>';
+  }
