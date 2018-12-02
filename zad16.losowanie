@@ -1,6 +1,6 @@
 Treść zadania
 Wylosuj dwie liczby z przedziału (-100,100) i podziel większą przez mniejszą
-
+<?php
 //zad losowanie dwoch liczb i podzielenie wiekszej przez mniejsza
 
 //liczba mniejsza
